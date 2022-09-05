@@ -37,6 +37,8 @@ struct CommonWebViewUI: UIViewRepresentable{
             //1. 현재 화면 위에 신규 화면을 호출한다.
             //2. 현재 화면에 보안키패드를 호출한다.
             //3. 현재 화면을 닫는다.
+            
+            // ObservableObject를 활용해서 View에 이벤트 전달 방식?
         }
            
     }
