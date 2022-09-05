@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-@main
+//@main
 struct NavigationPracticeApp: App {
     var body: some Scene {
         WindowGroup {

@@ -13,6 +13,9 @@
 		A71E0ABA2871E462004D385C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A71E0AB92871E462004D385C /* Preview Assets.xcassets */; };
 		A71E0AC12871E4DD004D385C /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71E0AC02871E4DC004D385C /* SecondView.swift */; };
 		A71E0AC32871E6C0004D385C /* ThirdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71E0AC22871E6C0004D385C /* ThirdView.swift */; };
+		A7AF94BD28C63909000765A9 /* CommonWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AF94BC28C63909000765A9 /* CommonWebView.swift */; };
+		A7AF94BF28C63B58000765A9 /* CommonWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AF94BE28C63B58000765A9 /* CommonWebViewController.swift */; };
+		A7AF94C128C6415A000765A9 /* CommonWebViewUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AF94C028C6415A000765A9 /* CommonWebViewUI.swift */; };
 		A7BB1E0228C0F2DA00567732 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BB1E0128C0F2DA00567732 /* DetailViewController.swift */; };
 		A7BB1E0428C0F9EA00567732 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BB1E0328C0F9EA00567732 /* MainViewController.swift */; };
 		A7BB1E0728C0FABB00567732 /* main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7BB1E0628C0FABB00567732 /* main.storyboard */; };
@@ -28,6 +31,9 @@
 		A71E0AB92871E462004D385C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A71E0AC02871E4DC004D385C /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
 		A71E0AC22871E6C0004D385C /* ThirdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdView.swift; sourceTree = "<group>"; };
+		A7AF94BC28C63909000765A9 /* CommonWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonWebView.swift; sourceTree = "<group>"; };
+		A7AF94BE28C63B58000765A9 /* CommonWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonWebViewController.swift; sourceTree = "<group>"; };
+		A7AF94C028C6415A000765A9 /* CommonWebViewUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonWebViewUI.swift; sourceTree = "<group>"; };
 		A7BB1E0128C0F2DA00567732 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		A7BB1E0328C0F9EA00567732 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		A7BB1E0628C0FABB00567732 /* main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = main.storyboard; sourceTree = "<group>"; };
@@ -76,6 +82,7 @@
 				A71E0AB82871E462004D385C /* Preview Content */,
 				A71E0AC02871E4DC004D385C /* SecondView.swift */,
 				A71E0AC22871E6C0004D385C /* ThirdView.swift */,
+				A7AF94C028C6415A000765A9 /* CommonWebViewUI.swift */,
 			);
 			path = NavigationPractice;
 			sourceTree = "<group>";
@@ -93,6 +100,8 @@
 			children = (
 				A7BB1E0328C0F9EA00567732 /* MainViewController.swift */,
 				A7BB1E0128C0F2DA00567732 /* DetailViewController.swift */,
+				A7AF94BC28C63909000765A9 /* CommonWebView.swift */,
+				A7AF94BE28C63B58000765A9 /* CommonWebViewController.swift */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -192,7 +201,10 @@
 				A7BB1E0A28C0FF5A00567732 /* AppDelegate.swift in Sources */,
 				A71E0AB52871E45E004D385C /* ContentView.swift in Sources */,
 				A71E0AB32871E45E004D385C /* NavigationPracticeApp.swift in Sources */,
+				A7AF94C128C6415A000765A9 /* CommonWebViewUI.swift in Sources */,
 				A7BB1E0D28C0FFAA00567732 /* SceneDelegate.swift in Sources */,
+				A7AF94BF28C63B58000765A9 /* CommonWebViewController.swift in Sources */,
+				A7AF94BD28C63909000765A9 /* CommonWebView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
